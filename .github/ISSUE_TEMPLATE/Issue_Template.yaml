@@ -56,7 +56,7 @@ body:
     id: terms
     attributes:
       label: This ticket contains only public information
-      description: DO NOT INCLUDE ANY CONTROLLED ACCESS INFORMATION, these issues are publicly viewable.
+      description: DO NOT INCLUDE ANY CONTROLLED ACCESS INFORMATION, these issues are publicly viewable. If you need to share anything that is not public, please email nemo@som.umaryland.edu
       options:
         - label: There is no personally identifiable or restricted information included in this ticket
           required: true
