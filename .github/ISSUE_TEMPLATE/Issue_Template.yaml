@@ -41,6 +41,7 @@ body:
         - File upload
         - Accessing public files
         - Accessing restricted files
+        - Other
         
   - type: textarea
     id: Description
