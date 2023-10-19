@@ -16,7 +16,7 @@ body:
       description: How can we best get in touch with you if we need more info?
       placeholder: ex. email@example.com
     validations:
-      required: false
+      required: true
 
   - type: dropdown
     id: Project
@@ -25,9 +25,13 @@ body:
       description: What project are you associated with?
       options:
         - BICAN
+          labels: ['BICAN']
         - BICCN
+          labels: ['BICCN']
         - SCORCH
+          labels: ['SCORCH']
         - Other
+          labels: ['Other']
     validations:
       required: true
   - type: dropdown
@@ -55,7 +59,7 @@ body:
     id: terms
     attributes:
       label: This ticket contains only public information
-      description: DO NOT INCLUDE ANY CONTROLLED ACCESS INFORMATION, these issues are publically viewable.
+      description: DO NOT INCLUDE ANY CONTROLLED ACCESS INFORMATION, these issues are publicly viewable.
       options:
         - label: There is no personally identifiable or restricted information included in this ticket
           required: true
