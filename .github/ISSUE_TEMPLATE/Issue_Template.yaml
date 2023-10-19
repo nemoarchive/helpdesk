@@ -25,13 +25,9 @@ body:
       description: What project are you associated with?
       options:
         - BICAN
-          labels: ['BICAN']
         - BICCN
-          labels: ['BICCN']
         - SCORCH
-          labels: ['SCORCH']
         - Other
-          labels: ['Other']
     validations:
       required: true
   - type: dropdown
