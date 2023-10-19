@@ -1,0 +1,61 @@
+name: NeMO help request
+description: Request help from the NeMO Team or file a bug report
+title: "[NeMO User Issue]: "
+labels: ["USER_ISSUE"]
+assignees:
+  - JPReceveur
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out to the NeMO team. We are happy to help with any issues and you can find a list of frequently asked questions here (link)
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we best get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
+  - type: dropdown
+    id: Project
+    attributes:
+      label: Project
+      description: What project are you associated with?
+      options:
+        - BICAN
+        - BICCN
+        - SCORCH
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: Issue_Type
+    attributes:
+      label: What category best fits your issue?
+      multiple: true
+      options:
+        - Manifest Validation
+        - Controlled vocabulary terms
+        - File upload
+        - Accessing public files
+        - Accessing restricted files
+        
+  - type: textarea
+    id: Description
+    attributes:
+      label: Issue
+      description: If the issue is related to a manifest, please provide the manifest ID here. If you need to talk to our team privately, please email nemo@som.umaryland.edu
+      placeholder: Please provide a summary of your issue here
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: This ticket contains only public information
+      description: DO NOT INCLUDE ANY CONTROLLED ACCESS INFORMATION, these issues are publically viewable.
+      options:
+        - label: There is no personally identifiable or restricted information included in this ticket
+          required: true
