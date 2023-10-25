@@ -1,4 +1,4 @@
-name: NeMO CV request
+name: CV request
 description: Request a new controlled vocabulary term for use in a submission manifest
 title: "[NeMO CV request]: "
 labels: ["USER_ISSUE"]
