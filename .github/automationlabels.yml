@@ -1,0 +1,7 @@
+# Add labels based on project
+BICAN:
+    - 'BICAN'
+BICCN:
+    - 'BICCN'
+SCORCH:
+    - 'SCORCH'
