@@ -5,3 +5,15 @@ BICCN:
     - 'BICCN'
 SCORCH:
     - 'SCORCH'
+ManifestValidation:
+    - 'Manifest Validation'
+CVTerms:
+    - 'Controlled vocabulary terms'
+FileUpload:
+    - 'File upload'
+PublicFileAccess:
+    - 'Accessing public files'
+RestrictedFileAccess:
+    - 'Accessing restricted files'
+LandingPagesPublications:
+    - 'Landing pages/ publications'
