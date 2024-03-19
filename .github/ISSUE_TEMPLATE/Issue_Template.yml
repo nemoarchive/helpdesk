@@ -4,6 +4,7 @@ title: "[NeMO User Issue]: "
 labels: ["USER_ISSUE"]
 assignees:
   - JPReceveur
+  - tkhodges
 body:
   - type: markdown
     attributes:
